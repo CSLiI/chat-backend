@@ -1,0 +1,11 @@
+### Fetch Messages
+GET http://127.0.0.1:8000/api/messages
+Content-Type: application/json
+
+### Send Message
+POST http://127.0.0.1:8000/api/send-message
+
+{
+  "sender": "John",
+  "message": "Test Message"
+}
